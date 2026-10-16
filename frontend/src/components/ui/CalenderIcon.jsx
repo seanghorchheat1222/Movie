@@ -1,0 +1,20 @@
+import React from 'react'
+
+function CalenderIcon(props) {
+  return (
+<svg  className={props.className} viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_174_13)">
+<path d="M33 40.3334H25.6667V47.6667H33V40.3334ZM47.6667 40.3334H40.3333V47.6667H47.6667V40.3334ZM62.3333 40.3334H55V47.6667H62.3333V40.3334ZM69.6667 14.6667H66V7.33337H58.6667V14.6667H29.3333V7.33337H22V14.6667H18.3333C14.2633 14.6667 11.0367 17.9667 11.0367 22L11 73.3334C11 77.3667 14.2633 80.6667 18.3333 80.6667H69.6667C73.7 80.6667 77 77.3667 77 73.3334V22C77 17.9667 73.7 14.6667 69.6667 14.6667ZM69.6667 73.3334H18.3333V33H69.6667V73.3334Z" />
+</g>
+<defs>
+<clipPath id="clip0_174_13">
+<rect width="88" height="88"/>
+</clipPath>
+</defs>
+</svg>
+
+
+  )
+}
+
+export default CalenderIcon

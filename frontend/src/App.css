@@ -1,0 +1,316 @@
+/* topmovies-carousel */
+
+.topmovies-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.topmovies-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  anchor-name: --topmovies;
+}
+
+
+.topmovies-carousel::scroll-button(right) {
+  content: '>';
+  position: fixed;
+  position-anchor: --topmovies;
+  position-area: center right;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.topmovies-carousel::scroll-button(right):disabled{
+ display: none;
+}
+
+.topmovies-carousel::scroll-button(left) {
+  content: '<';
+  position: fixed;
+  position-anchor: --topmovies;
+  position-area: center left;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.topmovies-carousel::scroll-button(left):disabled{
+ display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .topmovies-carousel::scroll-button(right) {
+  display: none;
+  }
+
+    .topmovies-carousel::scroll-button(left) {
+  display: none;
+  }
+}
+
+
+/* horrormovies-carousel */
+
+.horrormovies-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.horrormovies-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  anchor-name: --horrormovies;
+}
+
+
+.horrormovies-carousel::scroll-button(right) {
+  content: '>';
+  position: fixed;
+  position-anchor: --horrormovies;
+  position-area: center right;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+
+.horrormovies-carousel::scroll-button(right):disabled{
+ display: none;
+}
+
+.horrormovies-carousel::scroll-button(left) {
+  content: '<';
+  position: fixed;
+  position-anchor: --horrormovies;
+  position-area: center left;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.horrormovies-carousel::scroll-button(left):disabled{
+ display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .horrormovies-carousel::scroll-button(right) {
+  display: none;
+  }
+
+  .horrormovies-carousel::scroll-button(left) {
+  display: none;
+  }
+}
+
+
+/* actionmovies-carousel */
+
+.actionmovies-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.actionmovies-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  anchor-name: --actionmovies;
+}
+
+
+.actionmovies-carousel::scroll-button(right) {
+  content: '>';
+  position: fixed;
+  position-anchor: --actionmovies;
+  position-area: center right;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.actionmovies-carousel::scroll-button(right):disabled{
+  display: none;
+}
+
+.actionmovies-carousel::scroll-button(left) {
+  content: '<';
+  position: fixed;
+  position-anchor: --actionmovies;
+  position-area: center left;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.actionmovies-carousel::scroll-button(left):disabled{
+ display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .actionmovies-carousel::scroll-button(right) {
+  display: none;
+  }
+
+  .actionmovies-carousel::scroll-button(left) {
+  display: none;
+  }
+}
+
+
+/* animationmovies-carousel */
+
+.animationmovies-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.animationmovies-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  anchor-name: --animationmovies;
+}
+
+
+.animationmovies-carousel::scroll-button(right) {
+  content: '>';
+  position: fixed;
+  position-anchor: --animationmovies;
+  position-area: center right;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.animationmovies-carousel::scroll-button(right):disabled{
+ display: none;
+}
+
+.animationmovies-carousel::scroll-button(left) {
+  content: '<';
+  position: fixed;
+  position-anchor: --animationmovies;
+  position-area: center left;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.animationmovies-carousel::scroll-button(left):disabled{
+ display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .animationmovies-carousel::scroll-button(right) {
+  display: none;
+  }
+
+  .animationmovies-carousel::scroll-button(left) {
+  display: none;
+  }
+}
+
+
+
+
+/* tvseries-carousel */
+
+.tvseries-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.tvseries-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  anchor-name: --tvseries;
+}
+
+
+.tvseries-carousel::scroll-button(right) {
+  content: '>';
+  position: fixed;
+  position-anchor: --tvseries;
+  position-area: center right;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.tvseries-carousel::scroll-button(right):disabled{
+ display: none;
+}
+
+.tvseries-carousel::scroll-button(left) {
+  content: '<';
+  position: fixed;
+  position-anchor: --tvseries;
+  position-area: center left;
+  background-color: rgba(255, 255, 255, 0.10);
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  border: none;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.tvseries-carousel::scroll-button(left):disabled{
+ display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .tvseries-carousel::scroll-button(right) {
+  display: none;
+  }
+
+  .tvseries-carousel::scroll-button(left) {
+  display: none;
+  }
+}
